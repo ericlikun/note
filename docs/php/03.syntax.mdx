@@ -1,0 +1,131 @@
+---
+sidebar_position: 3
+---
+
+
+# PHP 语法
+
+大小写敏感
+
+## 语句
+
+用分号;分割，最后一行语句可以没有分号，但最好写上，这样可以不关注最后一行而继续添加代码。
+
+## 空白
+
+空白符号和换行不重要。
+
+## 注释
+
+PHP 支持 C、C++、UNIX shell 风格注释，但一般使用 C 风格
+
+```php
+// 这是一行注释 
+```
+
+```php
+/* 
+    这是第二个注释，下面
+    是第二个注释的第二行
+*/
+```
+
+## 字面量
+
+程序中直接出现的数值。
+
+```php
+10000
+0xCC
+3.14159
+"Hello likun!"
+'Hi'
+true
+null
+```
+
+## 标识符
+
+标识变量、函数、常量和类。
+
+### 变量名
+
+首字符须是ASCII字母、下划线_或 ASCII 0x7F 和 ASCII 0xFF 之间的任意字符，首字符后，这些字符及0~9是合法的。
+
+```php
+$likun
+$K
+$Max
+$list2
+$item3
+```
+
+### 函数名
+
+函数名不区分大小写
+
+```php
+list_users
+login
+UPPERCASE_LETTERS
+_hi
+```
+
+### 类名
+
+类名不区分大小写。stdClass 被保留。
+
+```php
+User
+account
+Item
+```
+
+### 常量
+
+```php
+define('ADMIN_USERNAME', 'admin')
+```
+
+## 关键字
+
+预留的单词，标识符不能和关键字重名，也不能和内置函数同名。
+
+<style>{`
+  th {
+    display: none;
+  }
+`}</style>
+
+|  |  |  |  |  |
+| ---- | ---- | ---- | ---- | ---- |
+| __halt_compiler() | abstract | and  | array()	| as |
+| break | callable | case | catch | class |
+| clone | const | continue | declare | default |
+| die() | do | echo | else | elseif |
+| empty() | enddeclare | endfor | endforeach | endif |
+| endswitch | endwhile | eval() | exit() | extends |
+| final | finally | fn（从 PHP 7.4 开始） | for | foreach |
+| function | global | goto | if | implements |
+| include | include_once | instanceof | insteadof | interface |
+| isset() | list() | match（从 PHP 8.0 开始） | namespace | new |
+| or | print | private | protected | public |
+| readonly | require | require_once | return | static |
+| switch | throw | trait | try | unset() |
+| use | var | while | xor | yield |
+| yield from |
+
+* readonly 自 PHP 8.1.0 起引入，可用作函数名。
+
+编译时常量
+```php
+__CLASS__
+__DIR__
+__FILE__
+__FUNCTION__
+__LINE__
+__METHOD__
+__NAMESPACE__
+__TRAIT__	
+```
+

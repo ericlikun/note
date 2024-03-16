@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknote_likun_cc=self.webpackChunknote_likun_cc||[]).push([[1400],{1800:s=>{s.exports=JSON.parse('{"label":"business-domain","permalink":"/blog/tags/business-domain","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

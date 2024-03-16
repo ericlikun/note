@@ -1,0 +1,214 @@
+---
+sidebar_position: 4
+---
+
+# PHP 数据类型
+
+PHP 提供了 8 种类型的值。标量型 4 种，复合类型 2 种，特殊类型 2 种；
+
+## 标量型
+
+### 1. 整型
+
+```php showLineNumbers
+1
+2
+3
+456
+-789
++1234
+0b10    // 二进制。十进制 2
+020     // 八进制。十进制 17
+0xFF    // 十六进制。十进制 255
+
+// 测试是否是整型
+if (is_int($x)) {
+    // $x 是整型
+}
+```
+
+### 2. 浮点数
+
+```php showLineNumbers
+1.732
+0.001
+-0.125
+8.256E1
+16.0E-5
+
+// 测试浮点型相等到3位精度
+if (intval($a * 1000) == intval($b * 1000)) {
+    // 匹配前3位数字
+}
+
+// 测试是否是浮点型
+if (is_float($x)) {
+    // $x 是浮点型
+}
+```
+
+### 3. 字符串
+
+双引号会被解析，单引号不会被解析。
+
+
+```php showLineNumbers
+'hot dog'
+"GEM"
+"Egypt"
+
+// 测试两个字符串是否相等
+if ($a == $b) {
+    echo "a 和 b 相等"
+}
+
+// 测试是否是字符串
+if (is_string($x)) {
+    // $x 是字符串
+}
+```
+
+#### 转义
+
+| 转移序列 | 表示的字符 |
+| ---- | ---- |
+| \" | 双引号 |
+| \n | 换行符 |
+| \r | 回车符 |
+| \t | 制表符 |
+| \\ | 反斜杠 |
+| \$ | 美元符号 |
+| \{ | 左大括号 |
+| \} | 右大括号 |
+| \[ | 左中括号 |
+| \] | 右中括号 |
+| \0到\777 | 用八进制表示的ASCII码 |
+| \x0到\xFF | 用十六进制表示的ASCII码 |
+
+### 4. 布尔型
+
+一个值如果不是真，那么它就是假
+
+```php showLineNumbers
+true
+false
+
+// 测试是否是布尔值
+if (is_bool($x)) {
+    // $x 是一个布尔型
+}
+```
+
+PHP 中，以下值的结算结果为 false
+
+- false
+- 整形0
+- 浮点数0.0
+- 空字符串 "" 和字符串 "0"
+- 空数组
+- NULL值
+
+
+## 复合类型
+
+### 5. 数组
+
+数组是一组值，这些值由位置或标识性的名称字符串来确定，也称为关联索引。
+
+数组是 PHP 灵活性的来源之一。
+
+```php showLineNumbers
+
+$old_world[0] = "美索不达米亚";
+$old_world[1] = "古埃及";
+$old_world[2] = "古印度";
+$old_world[3] = "中国";
+
+$old_world_en = array(
+    'first_line' => "Mesopotamia", 
+    'second_line' => "Ancient Egypt", 
+    'third_line' => "Ancient India", 
+    'fourth_line' => "China"
+);
+
+// 遍历数组
+foreach ($old_world as $civilization) {
+    echo "Hello, {$civilization}<br/>";
+}
+
+// 遍历数组（带key）
+foreach ($old_world_en as $index => $civilization) {
+    echo "Hello, the {$index} is {$civilization}.<br/>";
+}
+
+// 可用 sort 排序
+sort($old_world)
+
+// 测试是否是数组
+if (is_array($x)) {
+    // $x 是一个数组
+}
+```
+
+### 6. 对象
+
+PHP 也支持面向对象编程。具体的，支持 OOP 设计和 OOP 实现。
+
+```php showLineNumbers
+
+class User
+{
+    public $name = '';
+    function name($newname=NULL)
+    {
+        if (!is_null($newname)) {
+            $this->name = $newname;
+        }
+        return $this->name;
+    }
+}
+
+$user1 = new User;
+$user1->name('likun');
+echo "Hello, {$user1->name} <br />";
+
+
+// 测试是否是对象
+if (is_object($x)) {
+    // $x 是一个对象
+}
+```
+
+## 特殊类型
+
+### 7. 资源
+
+```php showLineNumbers
+
+$res = databse_connect();
+database_query($res);
+
+// 资源一般用关闭和结束函数显式关闭，当资源重定义时也会关闭
+$res = 'other_thing';
+
+// 测试是否是资源
+if (is_resource($x)) {
+    // $x 是资源
+}
+```
+
+回调
+
+回调可以通过 create_function() 方法或闭包创建，后续会展开。
+
+### 8. NULL
+
+NULL 类型只有一个值，就是 null，null 值不区分大小写，表示一个变量没有值。
+
+```php showLineNumbers
+
+// 测试是否是NULL
+if (is_null($x)) {
+    // $x 是 NULL
+}
+```
