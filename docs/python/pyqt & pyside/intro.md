@@ -36,7 +36,7 @@ PySide 6 的新名字。
 - 自带 Qt Designer，一个图形用户界面设计器。支持拖动生成界面，并支持扩展自定义部件。
 - 因为 Python 简单，Qt 强大，PyQt 兼得两者优点。
 
-## 我为什么使用 PyQt6 & PySide
+## 我在哪使用 PyQt6 & PySide
 
 在个人项目中：
 
