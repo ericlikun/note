@@ -34,7 +34,7 @@ echo "setting color scheme to ". colorScheme
 execute "colorschem " . colorScheme
 ```
 
-Vim 脚本也是一种图灵完美的脚本语言。通过包引入，还可以支持 python, ruby, lua, tcl 等脚本语言。
+Vim 脚本也是一种图灵完备的脚本语言。通过包引入，还可以支持 python, ruby, lua, tcl 等脚本语言。
 
 上述脚本的功能是实现，按打开 Vim 的时间来确定 Vim 颜色主题，这很能体现 Vim 哲学。
 
