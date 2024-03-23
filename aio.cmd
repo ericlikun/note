@@ -1,7 +1,6 @@
 D:
 cd D:\code\github\elwynli\note
-npm run build
-
+call npm run build
 git add .
 git commit -am 'ElwynLi'
 git push

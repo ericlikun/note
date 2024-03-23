@@ -47,7 +47,7 @@ Emacs 命令有很多，最好的记忆方式是亲手使用：当你有时间�
 * <kbd>C-n</kbd>：<kbd>C</kbd> 或 <kbd>M</kbd> 或 <kbd>S</kbd> 后带有 <kbd>-</kbd> 时，是常用的命令绑定，操作方式是按住 <kbd>CTRL</kbd> 后，再按下 <kbd>n</kbd> ，然后释放两个键；
 * <kbd>ESC n</kbd>：空格键表示释放后再按键，这里是按下 <kbd>ESC</kbd>，释放后，再按 <kbd>n</kbd> 键；
 * <kbd>C-x n</kbd>：常用命令设计为 <kbd>C-x</kbd> 后接一个字符，在键盘上 <kbd>C-z</kbd> 是挂起程序，所以 <kbd>C-x</kbd> 是最近的一个键
-* <kbd>C-c n</kbd>：用户命令设计为 <kbd>C-c</kbd> 后接一个字符，在键盘上 <kbd>C-x</kbd> 是被占用了，所以 <kbd>C-x</kbd> 是最近的一个键
+* <kbd>C-c n</kbd>：用户命令设计为 <kbd>C-c</kbd> 后接一个字符，在键盘上 <kbd>C-x</kbd> 是被占用了，所以 <kbd>C-c</kbd> 是最近的一个键
 
 :::tip 另类玩法
 特殊的键盘由于产生特殊的字符代码，此特性可定义一个键盘映射图实现对组合的快捷键实现二层定制。定制前提是：键盘特殊键所产生的字符代码是以一个特殊字符开头，并且至少有3个字符长时，才能在 Emacs 里对它们进行定义。利用这个特性可实现按下一个键执行一个命令（类似 Vim），类似游戏机的金手指。
@@ -310,7 +310,7 @@ C Programming Language
 2.3 常量
 ```
 
-```txt title="大纲模式"
+```org title="大纲模式"
 C Programming Language
 
 * 目录

@@ -55,8 +55,8 @@ Emacs 也有不对应文件的缓冲区，它们通常是由一对\*\*来包裹�
 邮件模式        | mail mode             | Email
 读邮件模式      | RMAIL mode            | 管理邮件
 只读模式        | view mode             | 查看文件
-Shell模式       | shell mode            | 内部运行 Shell
-FTP模式         | ange-ftp mode         | ftp
+Shell 模式      | shell mode            | 内部运行 Shell
+FTP 模式        | ange-ftp mode         | ftp
 Telnet 模式     | telnet mode           | telnet
 大纲模式        | outline mode          | 写大纲
 缩进文本模式    | indented text mode    | 自动缩进文本
@@ -67,8 +67,8 @@ C 模式          | C mode                | C 语言
 C++ 模式        | C++ mode              | C++ 语言
 FORTRAN 模式    | FORTRAN mode          | FORTRAN 语言
 Emacs Lisp 模式 | Emacs Lisp mode       | Emacs Lisp 语言 
-LISP 模式       | Lisp mode             | Lisp 语言
-LISP 互动模式   | Lisp interaction mode | Lisp 表达式
+Lisp 模式       | Lisp mode             | Lisp 语言
+Lisp 交互模式   | Lisp interaction mode | Lisp 表达式
 
 #### **辅模式（minor mode）**：定义的一些特定的行为
 

@@ -7,18 +7,19 @@ sidebar_position: 201
 
 ## AI 按场景
 
-- GPT
-- Claude
+
+### 1. 场景：对话
+
+- GPT (latest)
+- Claude (latest)
 - Mistral Large
 
-### 0. 场景：对话
-
-### 1. 场景：图像设计
+### 2. 场景：图像设计
 
 - Midjourney
 - Stable Diffusion（开源）
 
-### 2. 场景：编码
+### 3. 场景：编码
 
 - Github Copilot：订阅费 $10/月，功能：
 
@@ -34,10 +35,12 @@ sidebar_position: 201
 10. 跨语言支持
 11. 持续学习 
 
-### 3. 场景：音乐
+### 4. 场景：音乐
 
-### 4. 场景：语音合成
+### 5. 场景：语音合成
 
-### 5. 场景：数字人
+### 6. 场景：数字人
 
 ## 提示词 Prompts
+
+
