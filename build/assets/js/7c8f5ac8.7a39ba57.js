@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknote_likun_cc=self.webpackChunknote_likun_cc||[]).push([[3148],{6277:e=>{e.exports=JSON.parse('{"label":"knowledge-base","permalink":"/blog/tags/knowledge-base","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
