@@ -12,7 +12,14 @@ sidebar_position: 1
 
 [Stable Diffusion](https://stability.ai/)（SD）是一种人工智能绘画技术，使用开源模型，于 2022 年 8 月面世。
 
-发展史关键词：GAN 2014、CNN 2015、CLIP 2021、Imagen 2022.5、Parti 2022.6、ControlNet 2023.2
+发展史关键词：
+
+- GAN 2014
+- CNN 2015
+- CLIP 2021
+- Imagen 2022.5
+- Parti 2022.6
+- ControlNet 2023.2
 
 ## 对标的商业产品
 
@@ -20,13 +27,7 @@ sidebar_position: 1
 - OpenAI DALL·E 2：2022.4
 - Adobe Firefly 2023.5
 
-均是扩散模型，源自热力学分支——非平衡热力学。
-
-墨水在水中扩散形成大斑点。墨水在扩散前，初始状态难以采样（形成数据），而在扩散后变得简单均匀，容易采样（形成数据）。
-
-非平衡热力学可以描述墨水扩散过程的概率分布，扩展过程每一步都可逆，只要步长足够小，我们可以从最终分布中推导出最初的复杂分布。
-
-即一种有损图像压缩编解码器。
+均是扩散模型，源自热力学分支——非平衡热力学。墨水在水中扩散形成大斑点。墨水在扩散前，初始状态难以采样（形成数据），而在扩散后变得简单均匀，容易采样（形成数据）。非平衡热力学可以描述墨水扩散过程的概率分布，扩展过程每一步都可逆，只要步长足够小，我们可以从最终分布中推导出最初的复杂分布。即一种有损图像压缩编解码器。
 
 # 特点
 
@@ -58,19 +59,18 @@ WebUI 是最简单方式，AI绘画师通过给出“提示词”，SD 将文本
 
 平台：
 
-https://civitai.com
-https://huggingface.co
-
-https://www.liblib.art/ 国内
+- https://civitai.com
+- https://huggingface.co
+- https://www.liblib.art/ 国内
 
 ### 安装插件
 
-LoRA 模型：微调模型
-LyCORIS 模型：升级版 LoRA
-ControlNet：控制扩展模型
-Textual Inversion：Embedding 模型
-Hypernetwork：附件网络，个性化模型
-VAE 模型：Variational Autoencoder，滤镜+微调，用于美化
+- LoRA 模型：微调模型
+- LyCORIS 模型：升级版 LoRA
+- ControlNet：控制扩展模型
+- Textual Inversion：Embedding 模型
+- Hypernetwork：附件网络，个性化模型
+- VAE 模型：Variational Autoencoder，滤镜+微调，用于美化
 
 ### WebUI 功能
 
@@ -96,19 +96,16 @@ VAE 模型：Variational Autoencoder，滤镜+微调，用于美化
 
 ### 步数
 
-默认 20，不建议超过 30。
+- 默认 20，不建议超过 30。
 
 ### 分辨率
 
-大多模型用 512 * 512 渲染，少数 768 * 768。
-
-如果设置为 1024 * 1024，会合并内容嵌入，产生多人、多角度等问题。
+- 大多模型用 512 * 512 渲染，少数 768 * 768。
+- 如果设置为 1024 * 1024，会合并内容嵌入，产生多人、多角度等问题。
 
 ### 提示词引导系数 CFG Scale
 
-CFG：7
-
-即模型创造力对提示词的遵从度，建议7~10。
+- CFG：7。即模型创造力对提示词的遵从度，建议7~10。
 
 ### 随机种子 Seed
 
@@ -130,14 +127,14 @@ CFG：7
 
 ## 图生图
 
-常用于人像生成卡通、草图生成具体图
+- 常用于人像生成卡通、草图生成具体图
 
 ## LoRA
 
-多 LoRA 权重融合，可以得到令人惊讶的作品。
+- 多 LoRA 权重融合，可以得到令人惊讶的作品。
 
 ## ControlNet
 
-控制材质，控制人物姿态。
+- 控制材质，控制人物姿态。
 
 
