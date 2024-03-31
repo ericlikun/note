@@ -1,8 +1,8 @@
 {
-  "label": "移动平台",
-  "position": 111,
+  "label": "移动开发",
+  "position": 281,
   "link": {
     "type": "generated-index",
-    "description": "移动平台开发"
+    "description": "移动开发"
   }
 }
