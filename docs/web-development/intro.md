@@ -15,13 +15,47 @@ CSS
 JavaScript
 : 浏览器编程语言
 
+TypeScript
+: 
+
 REST
 : REST（Representational State Transfer，具象状态传输）是一种软件架构风格，它定义了一组约束，用于约束分布式 Internet 规模的超媒体系统（如 Web）的体系结构应如何运行。REST 架构风格强调统一接口、组件的独立部署、组件之间交互的可伸缩性，以及创建分层架构来促进缓存，以减少用户感知的延迟、加强安全性并封装遗留系统。
 
 RESTful
 : 遵循 REST 架构约束的应用程序可以非正式地描述为 RESTful。然而，这个术语更常与基于 HTTP 的 API 的设计以及被广泛认为的关于资源响应的“动词”（HTTP 方法）的最佳实践相关联，而这些实践与最初制定的 REST 关系不大，甚至经常与概念不一致。
 
+React
+: 
 
+Redux
+: 
+
+React Query / SWR / Relay
+: 
+
+Webpack
+: 
+
+Babel
+: 
+
+rollup.js
+: 
+
+Gulp
+: 
+
+Jest
+: 
+
+Cypress
+: 
+
+Storybook
+: 
+
+Next.js
+: 
 
 ## REST 特征：
 
