@@ -70,7 +70,7 @@ TCP：面向连接，可靠，支持点对点通信，传输慢，传输字节�
 UDP：无连接，不保证可靠，支持一对多、一对多，传输快，传输报文，无拥塞控制，首部 8 个字节，开销较小
 </details>
 
-5. TCP 三次握手
+6. TCP 三次握手
 
 <details>
      <summary>答案</summary>
@@ -81,7 +81,7 @@ ACK
 </details>
 
 
-5. SESSION 和 COOKIE 区别
+7. SESSION 和 COOKIE 区别
 
 <details>
      <summary>答案</summary>

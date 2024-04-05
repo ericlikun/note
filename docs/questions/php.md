@@ -234,18 +234,13 @@ chmod 600 file
     <summary>答案</summary>
 
 1. select
-
-上限 1024
-
+    上限 1024
 2. poll
-
-
 3. epoll
-
-- epoll 是 Linux 多路复用 IO 接口，在用户孔吉安维护两个表：Interest List 和 Ready List。
-- epoll 能在大量并发连接，但仅有少量活跃的情况下，提高系统的 CPU 利用率。
-- epoll 具有事件通知机制。
-- epoll 有两种触发机制：Level-Triggered 和 Edge-Triggered，ET 效率更高
+    - epoll 是 Linux 多路复用 IO 接口，在用户孔吉安维护两个表：Interest List 和 Ready List。
+    - epoll 能在大量并发连接，但仅有少量活跃的情况下，提高系统的 CPU 利用率。
+    - epoll 具有事件通知机制。
+    - epoll 有两种触发机制：Level-Triggered 和 Edge-Triggered，ET 效率更高
 </details>
 
 16. 处理高并发
