@@ -132,7 +132,7 @@ const config = {
         theme: prismThemes.dracula,
         darkTheme: prismThemes.dracula,
         // https://prismjs.com/#supported-languages
-        additionalLanguages: ['autohotkey', 'autoit', 'ini', 'php', 'php-extras', 'python', 'vim', 'lisp'],
+        additionalLanguages: ['autohotkey', 'autoit', 'ini', 'php', 'php-extras', 'python', 'rust', 'vim', 'lisp'],
       },
     }),
 };
