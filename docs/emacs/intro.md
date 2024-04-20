@@ -70,7 +70,7 @@ GNU Emacs 设计灵感是来自 Stallman 的同事，他们发现非专业用户
 
 def edit_dist_dp(str1, str2):
     
-	len1 = len(str1)
+    len1 = len(str1)
     len2 = len(str2)
 	
     DP = [[0 for i in range(len1 + 1)] for j in range(2)]
