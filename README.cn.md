@@ -1,21 +1,28 @@
-# 请阅读我
+# Readme
 
 ## 关于仓库
 
-发布在：https://note.likun.cc
-
-在这个似曾相识的域名下，记录通识。内容范围：编程、管理、业务。
+```python
+url = 'https://note.likun.cc'
+content = ('技术', '管理', '业务')
+```
 
 ## 认识我
 
-软件人一枚，居深圳。
-
-事软件研发廿余载，历编程、管理、业务诸领域，职业数易，恐领域辗转，致知识累积有阙，故留笔记以备查。亦为欲入领域诸君供门径与提纲。
-
-我也是一名终身学习者，兴趣范围从阅读跑步到冲泡咖啡，从软件编程到生活方式。
+```python
+likun = Engineer()
+likun.name = 'ElwynLi'
+likun.specialty = '软件'
+likun.tools = ['Python', 'Data']
+likun.skills = ['产品', '需求分析', '编程', '项目管理']
+likun.work_years = 20
+```
 
 ## 联系我
- 
-愿倾听来自读者的声音和反馈，如遇内容有缺陷，或希望分享观点，可 Issues 或 PR 或 [Email](mailto:likun@msn.cn?subject=Hello%20from%20YOUR_NAME) ，我会保持异步回复。
 
-Elwyn Li
+```python
+options = ['Issues', 'PR', 'Email']
+```
+
+[Send Email](mailto:likun@msn.cn?subject=Hello%20from%20YOUR_NAME)
+
