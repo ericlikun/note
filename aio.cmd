@@ -1,5 +1,5 @@
 D:
-cd D:\code\github\ericlikun\note
+cd D:\code\github\ericlikun\note.likun.cc
 call npm run build
 git add .
 git commit -am 'EricLikun'

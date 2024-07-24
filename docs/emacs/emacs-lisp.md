@@ -19,7 +19,7 @@ LeetCode 中有一些中等难度的题，是实现一个 Lisp 表达式的四�
 Emacs Lisp 是一种解释型编程语言，运行它的命令是：
 
 ```shell
-emacs -k hello-world.el
+emacs -Q --script hello-world.el
 ```
 
 看起来和执行 Python 脚本没什么不同。 
