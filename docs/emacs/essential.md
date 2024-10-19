@@ -127,7 +127,7 @@ Emacs 中有两个类似的操作。删除（delete）和移除（kill），删�
 
 :::tip Windows 中配置为使用 Emacs 打开文件的方法
 
-Windows 文件管理器中，邮件添加使用某程序打开是修改注册表，将下面的代码中emacsclientw.exe的路径修改后，
+Windows 文件管理器中，右键添加使用某程序打开是修改注册表，将下面的代码中emacsclientw.exe的路径修改后，
 将内容保存为 Open with Emacs.reg 文件，然后双击导入注册表中。
 
 ```reg title="Open with Emacs.reg"
